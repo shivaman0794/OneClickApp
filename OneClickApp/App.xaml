@@ -1,0 +1,43 @@
+﻿<Application x:Class="OneClickApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:OneClickApp"
+             xmlns:uc="clr-namespace:OneClickApp.UserControls"
+             xmlns:vm="clr-namespace:OneClickApp.ViewModel"
+             xmlns:view="clr-namespace:OneClickApp.MVVM.View"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes\HomeMenuButtonTheme.xaml"/>
+                <ResourceDictionary Source="Themes\TextBoxTheme.xaml"/>
+                <ResourceDictionary Source="Themes\GenericButtonStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type vm:HomeViewModel}">
+                <view:HomeView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:WebPageViewModel}">
+                <view:Web_Page/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:SocialMediaViewModel}">
+                <view:SocialMediaView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:PoppupMessageBoxViewModel}">
+                <uc:PopupMessageBox />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:UserControlWinViewModel}">
+                <local:UserControlWindow/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:ToolsViewModel}">
+                <view:ToolsView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:QuickNotesViewModel}">
+                <view:QuickNotes/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:EditorViewModel}">
+                <uc:FontDialog />
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

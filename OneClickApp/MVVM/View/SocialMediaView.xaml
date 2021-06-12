@@ -1,0 +1,99 @@
+﻿<UserControl x:Class="OneClickApp.MVVM.View.SocialMediaView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:OneClickApp.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="700">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Open Gmail in web" Style="{StaticResource GenericButtonStyle}"
+                            Command="{Binding GmailCommand}"
+                            >
+                        <Image Source="/Images/Gmail.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Open LinkedIn in web" Style="{StaticResource GenericButtonStyle}"
+                            Command="{Binding LinkedInCommand}"
+                            >
+                        <Image Source="/Images/LinkedIn.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Open Udemy for bussiness" Style="{StaticResource GenericButtonStyle}"
+                            Command="{Binding UdemyCommand}"
+                            >
+                        <Image Source="/Images/Udemy.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Covid-19 status in India" Style="{StaticResource GenericButtonStyle}"
+                            Command="{Binding Covid19Command}"
+                            >
+                        <Image Source="/Images/Covid.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="15,0,0,0" Content="Gmail" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="25,0,0,0" Content="LinkedIN" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="25,0,0,0" Content="Udemy" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="20,0,0,0" Content="Covid-19" Style="{StaticResource GenricLabelStyle}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Open Facebook in web" Style="{StaticResource GenericButtonStyle}"
+                            Command="{Binding FBCommand}"
+                            >
+                        <Image Source="/Images/FB.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Open Instagram in web" Style="{StaticResource GenericButtonStyle}"
+                            Command="{Binding InstaCommand}"
+                            >
+                        <Image Source="/Images/Insta.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Open YouTube in web" Style="{StaticResource GenericButtonStyle}"
+                            Command="{Binding YouTubeCommand}"
+                            >
+                        <Image Source="/Images/YouTube.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Open Twitter in Web" Style="{StaticResource GenericButtonStyle}"
+                            Command="{Binding TwitterCommand}"
+                            >
+                        <Image Source="/Images/Twitter.png" Width="110" Height="110"/>    
+                    </Button>
+                </Grid>
+            </Border>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="15,0,0,0" Content="Facebook" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="25,0,0,0" Content="Instagram" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="25,0,0,0" Content="YouTube" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="20,0,0,0" Content="Twitter" Style="{StaticResource GenricLabelStyle}" />
+        </StackPanel>
+    </StackPanel>
+</UserControl>

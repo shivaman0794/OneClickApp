@@ -1,0 +1,33 @@
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\MainWindow.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\MVVM\View\HomeView.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\MVVM\View\SocialMediaView.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\MVVM\View\ToolsView.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\MVVM\View\Web Page.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\UserControls\GenericButtonTiles.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\UserControls\PopupMessageBox.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\UserControlWindow.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\App.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\OneClickApp_MarkupCompile.cache
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\OneClickApp_MarkupCompile.lref
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\MainWindow.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\MVVM\View\HomeView.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\MVVM\View\SocialMediaView.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\MVVM\View\ToolsView.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\MVVM\View\Web Page.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\Themes\GenericButtonStyles.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\Themes\HomeMenuButtonTheme.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\Themes\TextBoxTheme.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\UserControls\GenericButtonTiles.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\UserControls\PopupMessageBox.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\UserControlWindow.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\OneClickApp.exe
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\OneClickApp.pdb
+D:\Project_2021\OneClickApp\OneClickApp\bin\Debug\OneClickApp.exe.config
+D:\Project_2021\OneClickApp\OneClickApp\bin\Debug\OneClickApp.exe
+D:\Project_2021\OneClickApp\OneClickApp\bin\Debug\OneClickApp.pdb
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\App.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\OneClickApp.g.resources
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\OneClickApp.Properties.Resources.resources
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\OneClickApp.csproj.GenerateResource.cache
+D:\Project_2021\OneClickApp\OneClickApp\obj\Debug\OneClickApp.csproj.CoreCompileInputs.cache

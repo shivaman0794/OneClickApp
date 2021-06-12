@@ -1,0 +1,29 @@
+D:\Project_2021\OneClickApp\OneClickApp\bin\Release\OneClickApp.exe.config
+D:\Project_2021\OneClickApp\OneClickApp\bin\Release\OneClickApp.exe
+D:\Project_2021\OneClickApp\OneClickApp\bin\Release\OneClickApp.pdb
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\MainWindow.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\MVVM\View\HomeView.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\MVVM\View\SocialMediaView.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\MVVM\View\ToolsView.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\MVVM\View\Web Page.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\UserControls\GenericButtonTiles.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\App.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\OneClickApp_MarkupCompile.cache
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\OneClickApp_MarkupCompile.lref
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\App.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\MainWindow.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\MVVM\View\HomeView.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\MVVM\View\SocialMediaView.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\MVVM\View\ToolsView.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\MVVM\View\Web Page.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\Themes\GenericButtonStyles.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\Themes\HomeMenuButtonTheme.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\Themes\TextBoxTheme.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\UserControls\GenericButtonTiles.baml
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\OneClickApp.g.resources
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\OneClickApp.Properties.Resources.resources
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\OneClickApp.csproj.GenerateResource.cache
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\OneClickApp.csproj.CoreCompileInputs.cache
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\OneClickApp.exe
+D:\Project_2021\OneClickApp\OneClickApp\obj\Release\OneClickApp.pdb

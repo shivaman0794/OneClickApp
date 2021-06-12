@@ -1,0 +1,100 @@
+﻿<UserControl x:Class="OneClickApp.MVVM.View.ToolsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:OneClickApp.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="700">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Register a new DLL using regsvr32" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding RegNewDllCommand}">
+                        <Image Source="/Images/RegDll.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Fix RAD registry issues" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding FixRADRegCommand}">
+                        <Image Source="/Images/FixReg.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="CoinDCX Page" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding CoinDCXCommand}">
+                        <Image Source="/Images/Coin.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Speed test by OKLA" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding SpeedtestCommand}">
+                        <Image Source="/Images/SpeedTest.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="25,0,0,0" Content="Register DLL" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="25,0,0,0" Content="Fix RAD Reg" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="5,0,0,0" Content="CoinDCX" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="15,0,0,0" Content="Speed test" Style="{StaticResource GenricLabelStyle}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+            <Border  Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Open SPID Automation Tool" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding SPIDAutomationCommand}">
+                        <Image Cursor="Hand" Source="/Images/SPIDAuto.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Open Drawing Manager" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding DMCommand}">
+                        <Image Source="/Images/DM.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Open HexConnect" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding HexConnectCommand}">
+                        <Image Source="/Images/HomePage.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <!--<Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Set Virtual drives" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding SetVDCommand}">
+                        <Image Source="/Images/SetVD.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Register RAD Binaries" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding RegAllCommand}">
+                        <Image Source="/Images/RunRegAll.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>-->
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Width="165" Margin="15,0,0,0" Content="SPID Automation Tool" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="15,0,0,0" Content="Drawing Manager" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="15,0,0,0" Content="HexConnect" Style="{StaticResource GenricLabelStyle}" />
+            <!--<Label Margin="20,0,0,0" Content="Run RegAll" Style="{StaticResource GenricLabelStyle}" />-->
+        </StackPanel>
+    </StackPanel>
+</UserControl>

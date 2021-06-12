@@ -1,0 +1,102 @@
+﻿<UserControl x:Class="OneClickApp.MVVM.View.Web_Page"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:OneClickApp.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="700">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Cipher's sprint page" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding BacklogPageCommand}">
+                        <Image Source="/Images/Backlog.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="Ciphers Home webpage" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding CiphersHomePageCommand}">
+                        <Image Source="/Images/HomePage.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="SPID Changeset webpage" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding ChangesetPageCommand}">
+                        <Image Source="/Images/Changes.png" Width="110" Height="110"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="JTS Home page" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding JTSPageCommand}">
+                        <Image Source="/Images/JTS.png" Width="110" Height="90" Margin="20,10,20,49"/>
+                    </Button>
+                    <TextBox x:Name="JTSTextBox" Height="30" Width="100" Margin="0,100,0,0" 
+                             TextAlignment="Center" Foreground="White" 
+                             FontWeight="Medium"
+                             Background="#272537"
+                             BorderBrush="Snow"
+                             TextWrapping="Wrap"
+                             Text="{Binding JTSNumber, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
+                        <TextBox.InputBindings>
+                            <KeyBinding Command="{Binding JTSPageCommand}" Key="Enter" />
+                        </TextBox.InputBindings>
+                    </TextBox>
+                </Grid>
+            </Border>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="15,0,0,0" Content="Ciphers Backlog" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="25,0,0,0" Content="Ciphers Home" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="25,0,0,0" Content="SPID Changeset" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="20,0,0,0" Content="JTS" Style="{StaticResource GenricLabelStyle}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10,20,0,0">
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="SPPID 11 build Pipelines page" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding SPID11PipelinesCommand}">
+                        <Image Source="/Images/Pipelines.png" Width="90" Height="90"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="SP2D 11 build Pipelines page" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding SP2D11PipelinesCommand}">
+                        <Image Source="/Images/Pipelines.png" Width="90" Height="90"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="SPPID 10 HF2 build Pipelines page" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding SPID10PipelinesCommand}">
+                        <Image Source="/Images/Pipelines.png" Width="90" Height="90"/>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource GenericBorderStyle}">
+                <Grid>
+                    <Button ToolTip="SP2D 10 HF2 build Pipelines page" Style="{StaticResource GenericButtonStyle}"
+                        Command="{Binding SP2D10PipelinesCommand}">
+                        <Image Source="/Images/Pipelines.png" Width="90" Height="90"/>
+                    </Button>
+                </Grid>
+            </Border>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="15,0,0,0" Content="SPID 11 Pipelines" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="25,0,0,0" Content="SPID 10HF Pipelines" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="25,0,0,0" Content="SPID 10HF Pipelines" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="20,0,0,0" Content="SP2D 10HF Pipelines" Style="{StaticResource GenricLabelStyle}" />
+        </StackPanel>
+    </StackPanel>
+</UserControl>
