@@ -101,7 +101,7 @@
             </Border>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
-            <Label Margin="15,0,0,0" Content="Clear Temp" Style="{StaticResource GenricLabelStyle}" />
+            <Label Margin="15,0,0,0" Content="Clear Temp Files" Style="{StaticResource GenricLabelStyle}" />
             <Label Margin="25,0,0,0" Content="Set Virtual Drive" Style="{StaticResource GenricLabelStyle}" />
             <Label Margin="25,0,0,0" Content="SPID 11 Setup" Style="{StaticResource GenricLabelStyle}" />
             <Label Margin="20,0,0,0" Content="SPID 10 HF Setup" Style="{StaticResource GenricLabelStyle}" />
